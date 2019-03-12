@@ -1,3 +1,9 @@
+<h1>A landing page for Poroset AR-app.</h1>
+[Poroset web-site] (https://www.poroset.fi)
+
+Copyright Poroset 2019. All rights reserved.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

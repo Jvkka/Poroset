@@ -1,20 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import Footer from './Footer';
 import * as serviceWorker from './serviceWorker';
-import Container from './Container';
-import PorosetCarousel from './PorosetCarousel';
+import Textfield from './PorosetCarousel';
 
 ReactDOM.render(
     <div>
     <App />
-    <Container />
-    <PorosetCarousel />
+    <Textfield />
     <Footer />
     </div>
-    , document.getElementById('root'));
+    , document.getElementById('Tietosuoja'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

@@ -4,17 +4,14 @@ import './index.css';
 import App from './App';
 import Footer from './Footer';
 import * as serviceWorker from './serviceWorker';
-import Container from './Container';
-import PorosetCarousel from './PorosetCarousel';
 
 ReactDOM.render(
     <div>
     <App />
-    <Container />
-    <PorosetCarousel />
+
     <Footer />
     </div>
-    , document.getElementById('root'));
+    , document.getElementById('root2'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

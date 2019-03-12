@@ -1,0 +1,12 @@
+.container-img {
+    align-items: center;
+}
+
+.card-body {
+    display: block;
+}
+
+h3, h4 {
+    font-weight: bold;
+    text-align: center;
+}
