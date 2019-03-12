@@ -7,6 +7,9 @@ class ContainerGirl extends Component {
     render() {
 
       return (
+
+      /* Cover-kuva jossa myös tekstiä liittyen sovellukseen. */ 
+
       <div class="container mx-auto">
         <div class="container card-body">
           <h3 class="card-title text-white">Satuja Porosten maasta- heidän itsensä kertomana.</h3>
