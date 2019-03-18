@@ -1,19 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import Footer from './Footer';
-import * as serviceWorker from './serviceWorker';
+import React, { Component } from 'react';
+import GooglePlayCarousel from './GooglePlayCarousel';
 
-ReactDOM.render(
-    <div>
-    <App />
+/* Sisältää yleistä tietoa sovelluksesta. */
 
-    <Footer />
-    </div>
-    , document.getElementById('root2'));
+class PorosetSovellus extends Component {
+    render() {
+      return (
+        <div class="container">
+            <GooglePlayCarousel />        
+        </div>
+            );
+  }
+}
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.register();
+export default PorosetSovellus;
